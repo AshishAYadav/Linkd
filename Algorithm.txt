@@ -1,0 +1,27 @@
+S121 - URL shortener 
+
+
+
+0.Setup php server environment           //000webhost.com used
+1.Create project directory              //S121
+2.Create index.php file                   //S121/index.php
+3.Grab a shortest domain name possible   //https://s121.ml used freely available at freenom
+4.Grab a SSL cert for security           //Cloudflare DNS used
+
+Algorithm - 
+
+Step 0: Start
+Step 1: create form to accept URl and Keyword for building short url
+Step 2: Accept URl and Keyword inside variables
+Step 3: Check URL and Keyword constraints or validation
+Step 4: IF URL and Keyword validated :
+Step 4.1:     Create Directory named as Keyword if !Exists else print Already Exists
+Step 4.2:	  Create index.php file inside keyword directory 
+Step 4.3:     Write Temporary redirect 302 to URL
+step 4.4:	  Echo Shortened URL as hyperlink
+Step 5: Else:
+			Show errors
+Step 6: for folders in directory:
+				count++;
+Step 7: print URLs shortened = count 
+Step 8: Stop
